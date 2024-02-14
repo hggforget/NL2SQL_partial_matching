@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "nl2sql-partial-matching"
+version = "0.1.0"
+description = ""
+authors = ["hdc.hggforget <hdc.hggforget@bytedance.com>"]
+readme = "README.md"
+packages = [
+    { include = "GMN" },
+]
+
+
+[tool.poetry.dependencies]
+python = ">=3.7"
+scikit-learn = "*"
+matplotlib = "^3.5.3"
+torch = "^1.13.1"
+easydict = "^1.11"
+pygmtools = "*"
+torchvision = "*"
+networkx = ">=2.3"
+xlwt = "*"
+tensorboardx = "*"
+tqdm = "*"
+seaborn = "*"
+requests = "*"
+pandas = "*"
+openpyxl = "^3.1.2"
+xlrd = "1.2.0"
+torch-geometric = "2.0.4"
+einops = "0.3.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
